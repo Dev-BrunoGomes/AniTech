@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --tech: #31af52;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--tech);
+  background-image: linear-gradient(to bottom left, #114720, #31af52);
+}
+
+.login {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  position: relative;
+  right: 8.7%;
+  top: 19%;
+  z-index: 1;
+}
+
+.erro {
+  font-size: 20px;
+  text-shadow: 2px 2px 4px black;
+  display: flex;
+  position: relative;
+  align-self: center;
+  color: red;
+}
+.inputs {
+  position: relative;
+  width: min-content;
+  height: min-content;
+  z-index: 999;
+  border-top: solid transparent 10px;
+  border-left: solid transparent 10px;
+  top: -30px;
+  left: -10px;
+}
+
+.input {
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  background-color: #fefefe;
+  width: 25vw;
+  height: 4vh;
+  font-size: 15px;
+  border: gray;
+  border-radius: 2%;
+}
+
+input[type="date"] {
+  min-height: 4.9%;
+}
+
+input:focus {
+  outline: none;
+}
+
+.btn {
+  position: relative;
+  color: white;
+  background-color: #4ed875;
+  border: gray;
+  border-radius: 2%;
+  padding: 5px 8px;
+  width: 25%;
+  height: 10%;
+  cursor: pointer;
+  top: -30px;
+  font-size: 18px;
+}
+
+.cadastro {
+  color: #fefefe;
+}
