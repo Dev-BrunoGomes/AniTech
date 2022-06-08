@@ -71,6 +71,7 @@
             </div>
         </div><br><br>
         <div class="child4">
+            
             <div>
                 <img class="img" src="images/funcionarios.png" alt="teste">
             </div>
