@@ -10,6 +10,7 @@ if (isset($_POST['logout'])) {
     header('location: login.php');
 }
 
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
